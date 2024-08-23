@@ -744,6 +744,11 @@ footer{
 
 
 }
+.event-venue p {
+
+    font-size: 20px;
+
+}
 }
 /* family section */
 .family-section{
@@ -906,7 +911,8 @@ footer{
     }
 }
 @media (max-width: 468px) {
-    .footer-msg p {
+    .footer-msg p,
+    .family-description {
         font-size: 15px;
         }
     .footer-regarding h2 {
